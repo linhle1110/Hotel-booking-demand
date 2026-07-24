@@ -18,8 +18,11 @@ https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
 <img width="635" height="359" alt="Hotel booking dashboard" src="https://github.com/user-attachments/assets/7f1053ef-723f-4256-b97f-d18cb8e6258f" />
 
 ## Key Insights
-- 
+- The city hotel had a significantly larger number of monthly reservations than the resort hotel over the year. Both hotels' reservations reached their peak in August.
+- The city hotel's pricing was stable throughout the year. The resort hotel had clear seasonality with a June-August peak.
+- The city hotel had a much higher cancellation rate than the resort hotel. This is because of the city hotel's lead time, deposit type, and distribution channels.
+- Cancelled bookings had longer lead times than completed bookings.
 
 ## Recommendation 
-
-
+- The hotels could leverage the peak season in the summer months to maximise their revenue.
+- To improve the cancellation rate, the city hotel should adopt strategies to encourage shorter booking lead times, try more effective cancellation policies, and diversify its booking profile. The city hotel could also develop a predictive analytics system to identify high risk reservations. 
