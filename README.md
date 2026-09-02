@@ -7,7 +7,7 @@ The project analyses the reservation data of a city hotel and a resort hotel fro
 ## Link to the dataset 
 https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
 
-## Tools used: Excel, Power BI, SQL 
+## Tools used: Excel, Python, Power BI, SQL 
 
 ## Business problem: The company wanted to identify: 
 - Reservation trends between 2 hotels
