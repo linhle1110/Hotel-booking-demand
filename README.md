@@ -4,10 +4,9 @@
 
 The project analyses the reservation data of a city hotel and a resort hotel from 2015 to 2017. The dataset contains over 20k historical hotel booking records with details like hotel type, booking behavior, customer profile, and distribution channel. The project focuses on analysing factors influencing the cancellation of city hotel and resort hotel. 
 
-## Link to the dataset 
-https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
+## Tools used: Excel, Python, Power BI. 
 
-## Tools used: Excel, Python, Power BI, SQL 
+The dataset is loaded into Deepnote for analysis with Python. 
 
 ## Business problem: The company wanted to identify: 
 - Reservation trends between 2 hotels
