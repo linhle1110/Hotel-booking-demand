@@ -47,9 +47,9 @@ Chi-square tests of independence between cancellation and three categorical fact
 
 ## Key Insights
 - The city hotel received about twice as many reservations as the resort hotel over the year. Both hotels' reservations reached their peak in July and August.
-- The city hotel's pricing was stable throughout the year. The resort hotel had clear seasonality with a June-August peak.
-- The city hotel had a much higher cancellation rate than the resort hotel. This is because of the city hotel's lead time, deposit type, and distribution channels.
-- Cancelled bookings had longer lead times than completed bookings.
+- The city hotel's pricing was stable throughout the year. By contrast, the resort hotel's price had clear seasonality with a June-August peak.
+- The city hotel had a much higher cancellation rate than the resort hotel. This cancellation rate showed the strongest correlation with the city hotel's lead time among variables. Besides, deposit type and distribution channels also might have the link with the cancellation rate.
+- Most bookings were made within 50 days of arrival, but the lead-time distribution has a long right tail extending beyond 700 days. Cancelled bookings had longer lead times than completed bookings.
 
 ## Recommendation 
 - The hotels could leverage the peak season in the summer months to maximise their revenue.
