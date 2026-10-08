@@ -51,19 +51,26 @@ Chi-square tests of independence between cancellation and three categorical fact
 - The city hotel had a much higher cancellation rate than the resort hotel. This cancellation rate showed the strongest correlation with the city hotel's lead time among variables. Besides, deposit type and distribution channels also might have the link with the cancellation rate.
 - Most bookings were made within 50 days of arrival, but the lead-time distribution has a long right tail extending beyond 700 days. Cancelled bookings had longer lead times than completed bookings.
 
+**Why the city hotel cancels more**
+
+| Factor | Linked to cancellation? | Explains the city–resort gap? |
+|---|---|---|
+| Lead time | Yes (r = 0.29) | **Yes**: the city hotel's average lead time is 110 days vs 93 days at the resort hotel |
+| Deposit type | Yes (p < 0.001) | **Yes**: 16% of city hotel bookings are non-refundable vs 4% at the resort hotel, and non-refundable bookings had a 99% cancellation rate |
+| Market segment | Yes (p < 0.001) | **Partly**: the city hotel relies more on online/offline travel agents and groups (the highest-cancelling segments) and has half the resort hotel's share of direct bookings |
+| Customer type | Yes (p < 0.001) | **No**: the customer-type mix is very similar at both hotels |
+| Previous cancellations | Weak (r = 0.11) | **Minimal**: both hotels have similar guest cancellation histories |
+
 ## Recommendations
-- Use the summer peak. Apply seasonal pricing and capacity planning for July–August, particularly at the resort hotel.
-- Manage long lead-time bookings. Introduce stricter terms or partial deposits for bookings made far in advance, send reminder and confirmation messages, and use last-minute offers to attract shorter lead-time demand.
-- Review the deposit policy. The near-total cancellation of non-refundable bookings is unusual and should be investigated with the hotel's operations team before policy changes are made.
-- Rebalance distribution channels. Encourage direct bookings, which cancel less, and tighten booking management with travel agents and group clients (for example, earlier reconfirmation).
-- Build a cancellation prediction model. Use lead time, deposit type, market segment and customer type to flag high-risk bookings in advance.
+- Use the summer peak: Apply seasonal pricing and capacity planning for July–August, particularly at the resort hotel.
+- Manage long lead-time bookings: Introduce stricter terms or partial deposits for bookings made far in advance, send reminder and confirmation messages, and use last-minute offers to attract shorter lead-time demand.
+- Review the deposit policy: The near-total cancellation of non-refundable bookings is unusual and should be investigated with the hotel's operations team before policy changes are made.
+- Rebalance distribution channels: Encourage direct bookings, which cancel less, and tighten booking management with travel agents and group clients (for example, stricter deposit).
+- Build a cancellation prediction model: Use lead time, deposit type, market segment and customer type to flag high-risk bookings in advance.
 
 ## Limitations
-- The 99% cancellation rate among non-refundable bookings runs contrary to normal expectations and may reflect how the booking system recorded these reservations rather than actual guest behaviour.
+- The 99% cancellation rate among non-refundable bookings is contrary to normal expectations and may reflect how the booking system recorded these reservations rather than actual guest behaviour.
 - Retaining identical rows may slightly overstate certain booking patterns.
 - The chi-square tests show that the factors are associated with cancellation, not that they cause it.
-The data covers only two hotels in one country, so the results may not apply to other markets.
 
-## Recommendation 
-- The hotels could leverage the peak season in the summer months to maximise their revenue.
-- To improve the cancellation rate, the city hotel should adopt strategies to encourage shorter booking lead times, try more effective cancellation policies, and diversify its booking profile. The city hotel could also develop a predictive analytics system to identify high risk reservations. 
+
